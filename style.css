@@ -14,11 +14,12 @@ body,html {
     border: 0;
 }
 .logo   {
-    background: url("headerlogo2.jpg");
+    background: url("lasttry.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 220px;
+    height: 200px;
+    bottom-margin: 10px;
     
 }
 
@@ -68,6 +69,12 @@ h3 {
     padding: 10px;
 }
 
+.listwrapper {
+    width: 100%;
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 0;
+}
 
 
 .contact {
@@ -98,10 +105,13 @@ h3 {
 
 }
 .list {
-
     padding-bottom: 10px;
     list-style-type: none;
 
+}
+
+.listleft {
+        padding-left: 0;
 }
 
 .list2 {
