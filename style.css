@@ -40,20 +40,18 @@ body,html {
     display: inline-block;
     width: 100%;
     text-align: center;
-    background-color: grey;
     margin: 0;
-    border-left: solid 5px white;
+    border: solid 1px white;
     padding: 0;
+    padding: 5px 0px;
 }
 .nav3 {
     display: inline-block;
     width: 100%;
     text-align: center;
-    background-color: grey;
     margin: 0;
-    border-left: solid 5px white;
-    border-right: solid 5px white;
-    padding: 0;
+    border: solid 1px white;
+    padding: 5px 0px;
 }
 
 .row {
@@ -70,20 +68,58 @@ h3 {
     text-transform: capitalize;
 }
 .contactme {
-    text-transform: ca
+    text-transform: uppercase;
+    padding: 10px;
 }
+
+
 
 .contact {
     text-align: center;
-    background-color: red;
+    background-color: black;
+    color: white;
+    border: solid 1px white;
 }
 
+.contactcontent {
+    padding-bottom: 10px;
+}
+/*------Service----*/
 .services {
     text-align: center;
-    background-color: orange;
+    background-color: #B0B0B0;
+    border: solid 1px white;
+}
+.serviceavail {
+   text-transform: uppercase;
+   padding: 10px;
+   margin: 0;
+   border: 0;
 }
 
+.list {
+    text-align: left;
+    padding-bottom: 1px;
+
+}
 .footer {
     text-align: center;
-    background-color: yellow;
+    background-color: black;
+    border: solid 1px white; 
+    color: white;
 }
+
+.nav1, .nav2, .nav3 {
+    color: black;
+    background-color: #B0B0B0;
+}
+
+/*---Hover---------------------*/
+
+.nav1:hover, .nav2:hover, .nav3:hover {
+    background-color:#A8A8A8;
+    text-decoration: underline;
+}
+
+
+
