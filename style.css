@@ -101,12 +101,12 @@ h3 {
 .list {
 
     padding-bottom: 10px;
-    list-style: none;
+    list-style-type: none;
 
 }
 
 .list2 {
-     list-style: none;
+     list-style-type: none;
      padding-bottom: 10px;
 }
 
