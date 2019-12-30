@@ -41,8 +41,6 @@ body,html {
     width: 100%;
     text-align: center;
     margin: 0;
-    border: solid 1px white;
-    padding: 0;
     padding: 5px 0px;
 }
 .nav3 {
@@ -50,7 +48,6 @@ body,html {
     width: 100%;
     text-align: center;
     margin: 0;
-    border: solid 1px white;
     padding: 5px 0px;
 }
 
@@ -97,11 +94,24 @@ h3 {
    border: 0;
 }
 
-.list {
-    text-align: left;
-    padding-bottom: 1px;
+.servicecontainer {
+    text-align: center;
 
 }
+.list {
+
+    padding-bottom: 10px;
+    list-style: none;
+
+}
+
+.list2 {
+     list-style: none;
+     padding-bottom: 10px;
+}
+
+
+
 .footer {
     text-align: center;
     background-color: black;
@@ -109,11 +119,29 @@ h3 {
     color: white;
 }
 
+.footer-content-top {
+    padding-top: 10px;
+}
+
 .nav1, .nav2, .nav3 {
     color: black;
     background-color: #B0B0B0;
+    border-left: solid 2px white;
+    border-right: solid 2px white;
+    border-top: solid 2px white;
+    border-bottom: solid 1px white;
+    font-size: 1.75em;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: none;
+    color: inherit;
+}
 /*---Hover---------------------*/
 
 .nav1:hover, .nav2:hover, .nav3:hover {
