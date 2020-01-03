@@ -14,13 +14,12 @@ body,html {
     border: 0;
 }
 .logo   {
-    background: url("lasttry.jpg");
+    background: url("assets/images/seans-logo.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 200px;
-    bottom-margin: 10px;
-    
+    height: 550px;
+      
 }
 
 /*--Nav bar--*/
@@ -67,14 +66,10 @@ h3 {
 .contactme {
     text-transform: uppercase;
     padding: 10px;
+    letter-spacing: 1.5px;
 }
 
-.listwrapper {
-    width: 100%;
-    text-align: left;
-    padding-left: 20px;
-    padding-right: 0;
-}
+
 
 
 .contact {
@@ -98,25 +93,29 @@ h3 {
    padding: 10px;
    margin: 0;
    border: 0;
+   letter-spacing: 1.5px;
 }
 
 .servicecontainer {
     text-align: center;
 
 }
+
+.listwrapper {
+    width: 100%;
+    text-align: center;
+    padding: 0;
+}
+
 .list {
     padding-bottom: 10px;
+    text-align: center;
     list-style-type: none;
 
 }
 
-.listleft {
-        padding-left: 0;
-}
-
-.list2 {
-     list-style-type: none;
-     padding-bottom: 10px;
+ul.list {
+    padding: 0;
 }
 
 
@@ -158,5 +157,30 @@ a:hover {
     text-decoration: underline;
 }
 
+/*-----Gallery----*/
 
+.gallery {
+    background-color: black;
+}
+
+.homebutton {
+    width: 100%;
+    text-align: center;
+    background-color: black;
+    
+}
+
+.gallerytitle {
+    color: #B0B0B0;
+    font-weight: 700;
+    text-transform: uppercase; 
+    font-size: 2em;
+    
+}
+
+.gallerytitle2 {
+    color: red;
+    font-style: italic;
+    font-size: 2em;
+}
 
