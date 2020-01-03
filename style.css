@@ -2,6 +2,7 @@ body,html {
     margin: 0;
     border: 0;
     padding: 0;
+    background-color: black;
 
 }
 
@@ -12,13 +13,17 @@ body,html {
     margin: 0;
     padding: 0;
     border: 0;
+    text-align: center;
+    z-index: -5;
+    top: 0;
 }
-.logo   {
-    background: url("assets/images/seans-logo.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 550px;
+
+.mainpic {
+    margin-bottom: 2px;
+    margin-right: 25px;
+
+}
+
       
 }
 
@@ -34,6 +39,7 @@ body,html {
     text-align:center;
     display: inline-block;
     padding: 0;
+    z-index: 1;
 }
 .nav1, .nav2 {
     display: inline-block;
@@ -77,6 +83,7 @@ h3 {
     background-color: black;
     color: white;
     border: solid 1px white;
+    z-index: 99;
 }
 
 .contactcontent {
@@ -175,12 +182,24 @@ a:hover {
     font-weight: 700;
     text-transform: uppercase; 
     font-size: 2em;
+    letter-spacing: 1.5px;
     
 }
 
 .gallerytitle2 {
     color: red;
     font-style: italic;
+    font-size: 1.5em;
+}
+
+.gheading {
+    background-color: black;
+    text-align: center;
+    
     font-size: 2em;
 }
 
+.pic {
+    border: solid 1px white;
+}
+   
